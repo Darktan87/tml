@@ -1,0 +1,154 @@
+h1{
+    background-color: yellow;
+    color: black;
+    text-align: left;
+  font-family: verdana;
+  font-size: 300%;
+    border: 2px solid black;
+  }
+  h2{
+    background-color:blue;
+    color: black;
+    text-align: left;
+  font-family: verdana;
+  
+  }
+   body{
+    background-color: orangered;
+   }
+  
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 30px;
+  }
+#navigation { 
+    width: 99%;
+    margin-left: 0px;
+    margin-right: auto;
+    border: 1px black;
+}
+li{
+    display: inline;
+    padding: 25px;
+    border-radius: 5px;
+    float: left;
+   
+}
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 28px;
+   
+}
+a:hover {
+    text-decoration: underline;
+    background-color: #111;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+
+
+  .bookdisplay {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 30px;
+    padding: 10px;
+
+
+}
+
+.bookpic {
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 0.3rem solid #000000;
+
+
+}
+
+.booktext {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.button
+{
+    background-color:white;
+}
+
+
+.payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .form-group button:hover {
+    background-color: #45a049;
+  }
+
+  .error {
+    color: red;
+    font-size: 14px;
+  }
